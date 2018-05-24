@@ -18,7 +18,7 @@ func bindata_read(path, name string) ([]byte, error) {
 // bindata_go reads file data from disk. It returns an error on failure.
 func bindata_go() ([]byte, error) {
 	return bindata_read(
-		"/home/cdecker/go/src/github.com/cdecker/kugelblitz/static/bindata.go",
+		"$HOME/go/src/github.com/cdecker/kugelblitz/static/bindata.go",
 		"bindata.go",
 	)
 }
@@ -26,7 +26,7 @@ func bindata_go() ([]byte, error) {
 // custom_css reads file data from disk. It returns an error on failure.
 func custom_css() ([]byte, error) {
 	return bindata_read(
-		"/home/cdecker/go/src/github.com/cdecker/kugelblitz/static/custom.css",
+		"$HOME/cdecker/go/src/github.com/cdecker/kugelblitz/static/custom.css",
 		"custom.css",
 	)
 }
@@ -66,7 +66,7 @@ func grid_css() ([]byte, error) {
 // index_html reads file data from disk. It returns an error on failure.
 func index_html() ([]byte, error) {
 	return bindata_read(
-		"/home/cdecker/go/src/github.com/cdecker/kugelblitz/static/index.html",
+		"$HOME/go/src/github.com/cdecker/kugelblitz/static/index.html",
 		"index.html",
 	)
 }
